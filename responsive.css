@@ -1,0 +1,163 @@
+.main{
+	max-height:100%;
+	max-width:100%;
+	 /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+	z-index:0;
+	background-color:white;
+}
+
+
+#slide-out{
+	background: -webkit-linear-gradient(top, rgba(19,52,131,1) 0%,rgba(15,66,149,1) 28%,rgba(11,86,177,1) 50%,rgba(9,97,191,1) 78%,rgba(5,106,207,1) 100%);
+	color:white;
+	z-index:1;
+	position:relative;
+	width:170px;
+	max-height:100%;
+}
+#litem{
+	font-size:12px;
+	color:#5B84C8;
+}
+#litem:hover{
+	color:white ;
+}
+.ab:hover{
+	border-left:5px solid #4CA6FC ;
+}
+.material-icons.plane{
+	font-size:30px;
+	line-height:38px;
+}
+@media screen and (max-width: 599px) {
+	.material-icons.menu{
+		visibility: visible;
+		margin:-750 0 0 0;
+	}
+	.row,.column,.campanies,.row2,.right,.ic,.button,.se,#lorem{
+		visibility:hidden;
+		background-color:pink;
+		box-shadow:none;
+	}
+	.main{background-color:orange;}
+}
+@media screen and (min-width: 768px) {
+	.material-icons.menu{
+		visibility:hidden;
+		margin:-750px 0 0 0px;
+	}
+	.material-icons.menu:hover{
+		.sidenav{visibility:visible;}
+	}
+
+	
+}
+.right{
+	z-index:1;
+	width:1097px;
+	margin:-753px 263px 0px 0px;
+}
+.se{padding:10px 0px 0px 20px;
+}
+.ic{
+	display:flex;
+	width:270px;
+	height:60px;
+	margin:-33px 15px 0px 1077px;
+	padding:10px 25px 0 0;
+	
+}
+.material-icons.mi{
+	color:#a9a9a9;
+	font-size:20px;
+}
+.companies{
+	width:1360px;
+	margin:-710px 0px 0px 172px;
+	font-size:25px;
+	padding:20px 25px 30px 29px;
+	font-weight:630;
+	box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#lorem{
+	font-size:12px;
+	color:#d3d3d3;
+	font-weight:400;
+}
+.button {
+	background-color:#197CE1 ; 
+  	border: none;
+	height:38px;
+	width:70px;
+	border-radius:2px;
+  	color: white;
+ 	 padding: 5px 10px;
+ 	 text-align: center;
+	float:right;
+  	display: inline-block;
+	margin:-678px 10px 0px 395px;
+  	font-size: 18px;
+}
+.material-icons.ca{
+	color:#a9a9a9;
+	font-size:14px;
+	font-weight:bold;
+}
+
+.material-icons.b{
+	font-size:34px;
+	color:#197CE1;
+	margin:-45 0 0 0;
+	padding:15px;
+	background-color:#ededed;
+}
+
+.column {
+  	float: left;
+  	width: 25%;
+  	padding: 0 10px;
+}
+h6{font-weight:700;}
+/* Remove extra left and right margins, due to padding */
+.row {  
+	display:flex;
+	margin:50px 0px 0px 360px;
+}
+
+.row2 {  
+	display:flex;
+	margin:40px 0px 0px 360px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  	content: "";
+  	display: table;
+ 	 clear: both;
+}
+
+#first{font-size:12px;color:#a9a9a9;font-weight:600;line-height:38px;}
+#firsta{font-size:13px;color:#a9a9a9; align:left;font-weight:350; margin-left:-225px;line-height:20px;font-family:calibri;}
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    	width: 100%;
+    	display: block;
+    	margin-bottom: 0px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  	width:420px;
+	 height:196px;
+	border:1px rgba(0,0,0,0.18);
+  	padding: 16px 24px 20px 24px;
+ 	 text-align: center;
+  	background-color:white;
+}
+hr{
+	border:1px solid #dedede;
+	opacity:1;
+	
+}
